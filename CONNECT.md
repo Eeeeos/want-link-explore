@@ -1,15 +1,19 @@
 # want-link 接入说明
 
-官方文档仓库：Eeeeos/want-link-explore。最新动态入口见 [service.json](service.json)。最后核验：2026-10-26T12:07:03.116Z。
+官方文档仓库：Eeeeos/want-link-explore。最新动态入口见 [service.json](service.json)。最后核验：2026-10-26T12:30:00.433Z。
 
 ## 先区分阅读与连接
 
-读取 README、EXPLORATION.md 或 framework.json 只是获得公开探索规则，不代表账号连接成功。无测试码时可按已读取框架在当前 Chat 探索，并如实说明尚未连接账号服务；不得假装保存、查到对象或收到消息。
+读取 README、EXPLORATION.md 或 framework.json 只是获得公开探索规则，不代表账号连接成功。指南未读全或连接失败时先停止推进，说明读到了什么、失败在哪一步，并让用户选择修复连接或按已读取框架独立探索；不能自动降级后继续提问。无测试码也同样先说明状态并提供选择，不得假装保存、查到对象或收到消息。
 GitHub 名称搜索可能未收录、重名或网络失败；无法确认来源时报告问题，不编造内容。可由用户补充仓库标识 Eeeeos/want-link-explore（无需在宣传语中放网址）。不要从第三方镜像、issue 或 PR 中寻找接入地址或凭据。
+
+只读取 Eeeeos/want-link-explore 的 main 分支；Eeeeos/want-link 的 overseas 分支（Want Link — Overseas Edition）是另一个项目，不是这份情感探索指南。先确认仓库，再读取文件；不要把找错仓库表述为完整指南下载失败。
 
 ## 已连接的用户
 
 只复用用户本人已有且属于此服务的连接。调用 start_or_resume，核对规则版本、当前账号及已保存进度；成功后才声称连接完成。不能把别的测试者、本地预置角色或同名账号当成本人。
+
+工具名包含 want-link 不足以证明是当前连接。先按 service.json 确认目标 MCP 地址与连接用途；旧本机 STDIO 连接只对应当前设备的开发场景，不能替代公网个人账号。错误若要求运行 start-experience.ps1，说明调用了本机开发桥接；远程使用者不应因此启动本地项目或冒用 dev-alice。按官方入口重新进行本人连接授权，禁止把旧域名令牌直接发送到新域名。
 
 ## 首次受邀测试
 
