@@ -1,6 +1,6 @@
 # want-link 接入说明
 
-官方文档仓库：Eeeeos/want-link-explore。最新动态入口见 [service.json](service.json)。最后核验：2026-10-28T07:08:22.959Z。
+官方文档仓库：Eeeeos/want-link-explore。最新动态入口见 [service.json](service.json)。最后核验：2026-10-28T08:58:33.393Z。
 
 ## 先区分阅读与连接
 
